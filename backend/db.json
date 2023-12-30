@@ -1,0 +1,219 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Complete Project A",
+      "description": "Finish all tasks related to Project A",
+      "completed": false,
+      "dueDate": "2023-02-15"
+    },
+    {
+      "id": 2,
+      "title": "Read a Book",
+      "description": "Read the latest novel from your favorite author",
+      "completed": true,
+      "dueDate": "2023-01-30"
+    },
+    {
+      "id": 3,
+      "title": "Exercise for 30 minutes",
+      "description": "Go for a jog or hit the gym",
+      "completed": false,
+      "dueDate": "2023-03-10"
+    },
+    {
+      "id": 4,
+      "title": "Learn a new programming language",
+      "description": "Start with the basics of a language you're interested in",
+      "completed": false,
+      "dueDate": "2023-04-05"
+    },
+    {
+      "id": 5,
+      "title": "Plan weekend trip",
+      "description": "Research and plan a weekend getaway",
+      "completed": true,
+      "dueDate": "2023-02-28"
+    },
+    {
+      "id": 6,
+      "title": "Buy groceries",
+      "description": "Make a list and buy essential groceries",
+      "completed": false,
+      "dueDate": "2023-01-25"
+    },
+    {
+      "id": 7,
+      "title": "Attend online course",
+      "description": "Enroll in a new online course and attend the first lecture",
+      "completed": false,
+      "dueDate": "2023-03-01"
+    },
+    {
+      "id": 8,
+      "title": "Write a blog post",
+      "description": "Share your thoughts on a topic of interest",
+      "completed": true,
+      "dueDate": "2023-02-10"
+    },
+    {
+      "id": 9,
+      "title": "Update resume",
+      "description": "Add recent achievements and experiences to your resume",
+      "completed": false,
+      "dueDate": "2023-04-15"
+    },
+    {
+      "id": 10,
+      "title": "Practice mindfulness",
+      "description": "Take 10 minutes each day for mindfulness exercises",
+      "completed": true,
+      "dueDate": "2023-01-20"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Project Alpha",
+      "description": "Develop a new software application for client X",
+      "startDate": "2023-02-01",
+      "endDate": "2023-06-30"
+    },
+    {
+      "id": 2,
+      "name": "Website Redesign",
+      "description": "Revamp the company website for a modern look and improved user experience",
+      "startDate": "2023-03-15",
+      "endDate": "2023-08-31"
+    },
+    {
+      "id": 3,
+      "name": "Marketing Campaign",
+      "description": "Launch a new marketing campaign to increase brand awareness",
+      "startDate": "2023-04-10",
+      "endDate": "2023-07-15"
+    },
+    {
+      "id": 4,
+      "name": "Research and Development",
+      "description": "Conduct research and development for innovative product features",
+      "startDate": "2023-01-15",
+      "endDate": "2023-05-31"
+    },
+    {
+      "id": 5,
+      "name": "Infrastructure Upgrade",
+      "description": "Upgrade the company's IT infrastructure for better performance and security",
+      "startDate": "2023-05-01",
+      "endDate": "2023-10-31"
+    },
+    {
+      "id": 6,
+      "name": "Customer Support Enhancement",
+      "description": "Improve customer support processes and systems",
+      "startDate": "2023-02-28",
+      "endDate": "2023-07-31"
+    },
+    {
+      "id": 7,
+      "name": "Product Launch",
+      "description": "Plan and execute the launch of a new product line",
+      "startDate": "2023-03-20",
+      "endDate": "2023-09-30"
+    },
+    {
+      "id": 8,
+      "name": "Employee Training Program",
+      "description": "Develop a comprehensive training program for new and existing employees",
+      "startDate": "2023-04-05",
+      "endDate": "2023-08-15"
+    },
+    {
+      "id": 9,
+      "name": "Quality Assurance Initiative",
+      "description": "Implement measures to enhance product quality and testing processes",
+      "startDate": "2023-06-01",
+      "endDate": "2023-11-30"
+    },
+    {
+      "id": 10,
+      "name": "Strategic Partnerships",
+      "description": "Explore and establish strategic partnerships with other businesses",
+      "startDate": "2023-01-20",
+      "endDate": "2023-07-01"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 999.99,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "price": 499.99,
+      "inStock": false
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "category": "Sports & Outdoors",
+      "price": 79.99,
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Coffee Maker",
+      "category": "Home & Kitchen",
+      "price": 59.99,
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Backpack",
+      "category": "Fashion",
+      "price": 29.99,
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "Bluetooth Earbuds",
+      "category": "Electronics",
+      "price": 39.99,
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Gaming Console",
+      "category": "Electronics",
+      "price": 299.99,
+      "inStock": false
+    },
+    {
+      "id": 8,
+      "name": "Yoga Mat",
+      "category": "Sports & Outdoors",
+      "price": 19.99,
+      "inStock": true
+    },
+    {
+      "id": 9,
+      "name": "Desk Chair",
+      "category": "Home & Office Furniture",
+      "price": 129.99,
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Sunglasses",
+      "category": "Fashion",
+      "price": 49.99,
+      "inStock": true
+    }
+  ]
+}
