@@ -1,11 +1,14 @@
 import Navbar from './components/Navbar';
+import ProjectList from './components/ProjectList';
+// import TodoList from './components/TodoList';
 
 const App = () => {
   return (
     <>
       <Navbar />
       <div className='container'>
-        <h1>App</h1>
+        {/* <TodoList /> */}
+        <ProjectList />
       </div>
     </>
   );
