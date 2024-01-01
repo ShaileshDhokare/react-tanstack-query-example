@@ -37,7 +37,7 @@ const ProjectList = () => {
       <div className='row'>
         <h2>Projects</h2>
         {projects?.map((project) => (
-          <ProjectDetails project={project} />
+          <ProjectDetails key={project.id} project={project} />
         ))}
       </div>
       <div className='d-flex justify-content-between'>

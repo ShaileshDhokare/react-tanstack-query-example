@@ -8,7 +8,7 @@ const TodoList = () => {
 
   if (isLoading) {
     return (
-      <div className='d-flex justify-content-center'>
+      <div className='d-flex justify-content-center mt-3'>
         <div className='spinner-border' role='status'>
           <span className='visually-hidden'>Loading...</span>
         </div>
@@ -31,7 +31,7 @@ const TodoList = () => {
           <h2>Todos</h2>
           <div className='row'>
             {todosQueries.map(({ data, isLoading }) => (
-              <TodoDetails todo={data!} isLoading={isLoading} />
+              <TodoDetails key={data?.id} todo={data!} isLoading={isLoading} />
             ))}
           </div>
         </div>

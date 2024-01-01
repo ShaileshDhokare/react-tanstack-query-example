@@ -32,7 +32,7 @@
       "id": 5,
       "title": "Plan weekend trip",
       "description": "Research and plan a weekend getaway",
-      "completed": true,
+      "completed": false,
       "dueDate": "2023-02-28"
     },
     {
