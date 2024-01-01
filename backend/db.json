@@ -32,7 +32,7 @@
       "id": 5,
       "title": "Plan weekend trip",
       "description": "Research and plan a weekend getaway",
-      "completed": true,
+      "completed": false,
       "dueDate": "2023-02-28"
     },
     {
@@ -74,145 +74,424 @@
   "projects": [
     {
       "id": 1,
-      "name": "Project Alpha",
-      "description": "Develop a new software application for client X",
-      "startDate": "2023-02-01",
-      "endDate": "2023-06-30"
+      "name": "Website Redesign",
+      "description": "Revamp the company website for improved user experience and modern design.",
+      "startDate": "2023-01-10",
+      "endDate": "2023-05-31"
     },
     {
       "id": 2,
-      "name": "Website Redesign",
-      "description": "Revamp the company website for a modern look and improved user experience",
-      "startDate": "2023-03-15",
-      "endDate": "2023-08-31"
+      "name": "Mobile App Development",
+      "description": "Develop a new mobile application to expand customer reach and engagement.",
+      "startDate": "2023-02-15",
+      "endDate": "2023-08-30"
     },
     {
       "id": 3,
       "name": "Marketing Campaign",
-      "description": "Launch a new marketing campaign to increase brand awareness",
-      "startDate": "2023-04-10",
-      "endDate": "2023-07-15"
+      "description": "Launch a targeted marketing campaign to increase brand awareness and sales.",
+      "startDate": "2023-03-01",
+      "endDate": "2023-06-30"
     },
     {
       "id": 4,
-      "name": "Research and Development",
-      "description": "Conduct research and development for innovative product features",
-      "startDate": "2023-01-15",
-      "endDate": "2023-05-31"
+      "name": "Product Innovation",
+      "description": "Research and develop innovative product features to stay ahead of competitors.",
+      "startDate": "2023-04-05",
+      "endDate": "2023-10-31"
     },
     {
       "id": 5,
       "name": "Infrastructure Upgrade",
-      "description": "Upgrade the company's IT infrastructure for better performance and security",
-      "startDate": "2023-05-01",
-      "endDate": "2023-10-31"
-    },
-    {
-      "id": 6,
-      "name": "Customer Support Enhancement",
-      "description": "Improve customer support processes and systems",
-      "startDate": "2023-02-28",
-      "endDate": "2023-07-31"
-    },
-    {
-      "id": 7,
-      "name": "Product Launch",
-      "description": "Plan and execute the launch of a new product line",
-      "startDate": "2023-03-20",
-      "endDate": "2023-09-30"
-    },
-    {
-      "id": 8,
-      "name": "Employee Training Program",
-      "description": "Develop a comprehensive training program for new and existing employees",
-      "startDate": "2023-04-05",
-      "endDate": "2023-08-15"
-    },
-    {
-      "id": 9,
-      "name": "Quality Assurance Initiative",
-      "description": "Implement measures to enhance product quality and testing processes",
-      "startDate": "2023-06-01",
+      "description": "Upgrade the company's IT infrastructure to improve performance and security.",
+      "startDate": "2023-05-10",
       "endDate": "2023-11-30"
     },
     {
-      "id": 10,
+      "id": 6,
+      "name": "Employee Training Program",
+      "description": "Implement a comprehensive training program to enhance employee skills and productivity.",
+      "startDate": "2023-06-15",
+      "endDate": "2023-09-30"
+    },
+    {
+      "id": 7,
       "name": "Strategic Partnerships",
-      "description": "Explore and establish strategic partnerships with other businesses",
-      "startDate": "2023-01-20",
-      "endDate": "2023-07-01"
+      "description": "Establish strategic partnerships with other businesses to expand market reach.",
+      "startDate": "2023-07-01",
+      "endDate": "2023-12-31"
+    },
+    {
+      "id": 8,
+      "name": "Customer Service Improvement",
+      "description": "Enhance customer service processes and systems to improve customer satisfaction.",
+      "startDate": "2023-08-10",
+      "endDate": "2024-01-31"
+    },
+    {
+      "id": 9,
+      "name": "Sales Optimization",
+      "description": "Implement strategies to optimize sales processes and increase revenue.",
+      "startDate": "2023-09-15",
+      "endDate": "2024-03-31"
+    },
+    {
+      "id": 10,
+      "name": "Quality Assurance Initiative",
+      "description": "Develop and implement measures to improve product quality and testing processes.",
+      "startDate": "2023-10-20",
+      "endDate": "2024-04-30"
+    },
+    {
+      "id": 11,
+      "name": "Supply Chain Management",
+      "description": "Optimize supply chain processes to reduce costs and improve efficiency.",
+      "startDate": "2023-11-05",
+      "endDate": "2024-05-31"
+    },
+    {
+      "id": 12,
+      "name": "Research and Development",
+      "description": "Conduct research and development activities to explore new business opportunities.",
+      "startDate": "2023-12-10",
+      "endDate": "2024-06-30"
+    },
+    {
+      "id": 13,
+      "name": "E-commerce Expansion",
+      "description": "Expand the company's e-commerce presence to reach new customers and markets.",
+      "startDate": "2024-01-15",
+      "endDate": "2024-07-31"
+    },
+    {
+      "id": 14,
+      "name": "Social Media Strategy",
+      "description": "Develop and implement a comprehensive social media strategy to increase brand visibility.",
+      "startDate": "2024-02-20",
+      "endDate": "2024-08-31"
+    },
+    {
+      "id": 15,
+      "name": "Financial Analysis",
+      "description": "Conduct a thorough financial analysis to identify opportunities for cost savings and revenue growth.",
+      "startDate": "2024-03-25",
+      "endDate": "2024-09-30"
+    },
+    {
+      "id": 16,
+      "name": "Brand Identity",
+      "description": "Create and establish a strong brand identity to differentiate the company in the market.",
+      "startDate": "2024-04-30",
+      "endDate": "2024-10-31"
+    },
+    {
+      "id": 17,
+      "name": "Content Marketing",
+      "description": "Develop and execute a content marketing strategy to attract and engage target audiences.",
+      "startDate": "2024-05-05",
+      "endDate": "2024-11-30"
+    },
+    {
+      "id": 18,
+      "name": "Cybersecurity Enhancement",
+      "description": "Implement cybersecurity measures to protect company data and infrastructure.",
+      "startDate": "2024-06-10",
+      "endDate": "2024-12-31"
+    },
+    {
+      "id": 19,
+      "name": "Human Resources Strategy",
+      "description": "Develop and implement a human resources strategy to attract, retain, and develop talent.",
+      "startDate": "2024-07-15",
+      "endDate": "2025-01-31"
+    },
+    {
+      "id": 20,
+      "name": "Market Research",
+      "description": "Conduct market research to identify new opportunities and trends in the industry.",
+      "startDate": "2024-08-20",
+      "endDate": "2025-02-28"
+    },
+    {
+      "id": 21,
+      "name": "Product Launch",
+      "description": "Plan and execute a successful product launch to generate excitement and sales.",
+      "startDate": "2024-09-25",
+      "endDate": "2025-03-31"
+    },
+    {
+      "id": 22,
+      "name": "Customer Feedback",
+      "description": "Gather and analyze customer feedback to improve products and services.",
+      "startDate": "2024-10-30",
+      "endDate": "2025-04-30"
+    },
+    {
+      "id": 23,
+      "name": "Business Expansion",
+      "description": "Explore opportunities for business expansion into new markets or regions.",
+      "startDate": "2024-11-05",
+      "endDate": "2025-05-31"
+    },
+    {
+      "id": 24,
+      "name": "Supply Chain Optimization",
+      "description": "Optimize supply chain processes to reduce costs and improve efficiency.",
+      "startDate": "2024-12-10",
+      "endDate": "2025-06-30"
+    },
+    {
+      "id": 25,
+      "name": "Product Enhancement",
+      "description": "Enhance existing products based on customer feedback and market trends.",
+      "startDate": "2025-01-15",
+      "endDate": "2025-07-31"
+    },
+    {
+      "id": 26,
+      "name": "Digital Transformation",
+      "description": "Embark on a digital transformation journey to modernize business processes.",
+      "startDate": "2025-02-20",
+      "endDate": "2025-08-31"
+    },
+    {
+      "id": 27,
+      "name": "Community Engagement",
+      "description": "Engage with the community through social initiatives and corporate social responsibility.",
+      "startDate": "2025-03-25",
+      "endDate": "2025-09-30"
+    },
+    {
+      "id": 28,
+      "name": "Employee Wellness Program",
+      "description": "Implement a wellness program to promote the health and well-being of employees.",
+      "startDate": "2025-04-30",
+      "endDate": "2025-10-31"
+    },
+    {
+      "id": 29,
+      "name": "Sustainability Initiatives",
+      "description": "Introduce sustainability initiatives to reduce environmental impact.",
+      "startDate": "2025-05-05",
+      "endDate": "2025-11-30"
+    },
+    {
+      "id": 30,
+      "name": "Technology Integration",
+      "description": "Integrate new technologies to enhance business operations and efficiency.",
+      "startDate": "2025-06-10",
+      "endDate": "2025-12-31"
     }
   ],
-
   "products": [
     {
       "id": 1,
-      "name": "Laptop",
+      "name": "Smart TV",
       "category": "Electronics",
-      "price": 999.99,
+      "price": 599.99,
       "inStock": true
     },
     {
       "id": 2,
-      "name": "Smartphone",
+      "name": "Wireless Headphones",
       "category": "Electronics",
-      "price": 499.99,
+      "price": 129.99,
       "inStock": false
     },
     {
       "id": 3,
+      "name": "Digital Camera",
+      "category": "Electronics",
+      "price": 349.99,
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Coffee Grinder",
+      "category": "Home & Kitchen",
+      "price": 39.99,
+      "inStock": true
+    },
+    {
+      "id": 5,
       "name": "Running Shoes",
       "category": "Sports & Outdoors",
       "price": 79.99,
       "inStock": true
     },
     {
-      "id": 4,
-      "name": "Coffee Maker",
+      "id": 6,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 79.99,
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Microwave Oven",
       "category": "Home & Kitchen",
+      "price": 129.99,
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Fitness Tracker",
+      "category": "Sports & Outdoors",
+      "price": 49.99,
+      "inStock": false
+    },
+    {
+      "id": 9,
+      "name": "Desk Lamp",
+      "category": "Home & Office Furniture",
+      "price": 19.99,
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "External Hard Drive",
+      "category": "Electronics",
+      "price": 89.99,
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "Blender",
+      "category": "Home & Kitchen",
+      "price": 49.99,
+      "inStock": true
+    },
+    {
+      "id": 12,
+      "name": "Hiking Backpack",
+      "category": "Sports & Outdoors",
+      "price": 69.99,
+      "inStock": true
+    },
+    {
+      "id": 13,
+      "name": "Smart Thermostat",
+      "category": "Home & Office Electronics",
+      "price": 119.99,
+      "inStock": false
+    },
+    {
+      "id": 14,
+      "name": "Camping Tent",
+      "category": "Sports & Outdoors",
+      "price": 129.99,
+      "inStock": true
+    },
+    {
+      "id": 15,
+      "name": "Office Chair",
+      "category": "Home & Office Furniture",
+      "price": 149.99,
+      "inStock": true
+    },
+    {
+      "id": 16,
+      "name": "Digital Watch",
+      "category": "Fashion",
       "price": 59.99,
       "inStock": true
     },
     {
-      "id": 5,
-      "name": "Backpack",
+      "id": 17,
+      "name": "Toaster Oven",
+      "category": "Home & Kitchen",
+      "price": 79.99,
+      "inStock": true
+    },
+    {
+      "id": 18,
+      "name": "Dumbbell Set",
+      "category": "Sports & Outdoors",
+      "price": 29.99,
+      "inStock": true
+    },
+    {
+      "id": 19,
+      "name": "Laptop Bag",
       "category": "Fashion",
       "price": 29.99,
       "inStock": true
     },
     {
-      "id": 6,
-      "name": "Bluetooth Earbuds",
-      "category": "Electronics",
+      "id": 20,
+      "name": "Hair Dryer",
+      "category": "Home & Personal Care",
       "price": 39.99,
-      "inStock": true
-    },
-    {
-      "id": 7,
-      "name": "Gaming Console",
-      "category": "Electronics",
-      "price": 299.99,
       "inStock": false
     },
     {
-      "id": 8,
-      "name": "Yoga Mat",
+      "id": 21,
+      "name": "Portable Charger",
+      "category": "Electronics",
+      "price": 24.99,
+      "inStock": true
+    },
+    {
+      "id": 22,
+      "name": "Sunscreen Lotion",
+      "category": "Health & Beauty",
+      "price": 14.99,
+      "inStock": true
+    },
+    {
+      "id": 23,
+      "name": "Yoga Block",
+      "category": "Sports & Outdoors",
+      "price": 9.99,
+      "inStock": true
+    },
+    {
+      "id": 24,
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 19.99,
+      "inStock": true
+    },
+    {
+      "id": 25,
+      "name": "Sunglasses",
+      "category": "Fashion",
+      "price": 49.99,
+      "inStock": true
+    },
+    {
+      "id": 26,
+      "name": "Electric Kettle",
+      "category": "Home & Kitchen",
+      "price": 29.99,
+      "inStock": true
+    },
+    {
+      "id": 27,
+      "name": "Fitness Mat",
       "category": "Sports & Outdoors",
       "price": 19.99,
       "inStock": true
     },
     {
-      "id": 9,
-      "name": "Desk Chair",
-      "category": "Home & Office Furniture",
-      "price": 129.99,
+      "id": 28,
+      "name": "Alarm Clock",
+      "category": "Home & Personal Care",
+      "price": 12.99,
       "inStock": true
     },
     {
-      "id": 10,
-      "name": "Sunglasses",
+      "id": 29,
+      "name": "Back Support Pillow",
+      "category": "Home & Office Furniture",
+      "price": 24.99,
+      "inStock": true
+    },
+    {
+      "id": 30,
+      "name": "Graphic T-Shirt",
       "category": "Fashion",
-      "price": 49.99,
+      "price": 14.99,
       "inStock": true
     }
   ]
